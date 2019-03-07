@@ -1,1 +1,1 @@
-"# vanilla-js-card-tabs" 
+# vanilla-js card-tabs

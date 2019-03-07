@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+}
+
+.cards {
+  width: 250px;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  background-color: cornsilk;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.cards__item {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 1%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cards__item-btn {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.cards__item-footer {
+  display: none;
+}
+
+.cards__item-footer.active {
+  margin-top: 20px;
+  display: block;
+}
