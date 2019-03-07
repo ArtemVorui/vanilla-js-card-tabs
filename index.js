@@ -5,7 +5,7 @@
     const cards = document.getElementsByClassName('cards__item');
     const cardsDescription = document.getElementsByClassName('cards__item-footer');
 
-    function hideAllFooters() {
+    function hideAllDescription() {
       for (let i = 0; i < cardsDescription.length; i++) {
         cardsDescription[i].classList.remove('active');
       }
@@ -20,7 +20,7 @@
         if(description.classList.contains('active')) {
           description.classList.remove('active');
         } else {
-          hideAllFooters();
+          hideAllDescription();
           description.classList.add('active');
         }
       }
